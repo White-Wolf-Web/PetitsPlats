@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Les petits plats</title>
+		<meta name="description" content="Sites regroupant 50 recettes avec differents filtres et Tris" />
+		<meta name="author" content="Stephane Gamot" />
+		<meta name="robots" content="noindex" />
+		<script src="https://kit.fontawesome.com/be77b72380.js" crossorigin="anonymous"></script>
+
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<header>
+			<img src="./IMAGES/logo.png" alt="logo" width="268" height="93" class="logo" />
+			<form id="search-form">
+				<div class="search-container">
+					<input type="search" id="search-input" placeholder="Rechercher une recette, un ingrédient, une description..." />
+				</div>
+			</form>
+			<div id="noRecipyAvailable"></div>
+
+			<section>
+				<div id="tags"></div>
+				<div class="dropdown-container">
+					<div class="btn-group">
+						<div class="search-group">
+							<label class="btn" id="ingredientsLabel" for="ingredient">
+								<div class="space-between"><span id="ingredientsSpan">Ingrédients</span><i class="fas fa-chevron-down" id="ingredientChevronDown"></i></div>
+								<div class="ingredientPlaceholder">
+									<input type="text" id="ingredientInput" class="listDisplay hidden inputWidth" placeholder="Rechercher un ingrédient" />
+									<i class="fas fa-chevron-up" id="ingredientChevronUp"></i>
+								</div>
+								<div class="listDisplay" id="ingredientsList" data-filter="ingredient"></div>
+							</label>
+						</div>
+
+						<div class="search-group">
+							<label class="btn" id="appliancesLabel" for="appliance">
+								<div class="space-between"><span id="appliancesSpan">Appareils</span><i class="fas fa-chevron-down" id="applianceChevronDown"></i></div>
+								<div class="appliancePlaceholder">
+									<input type="text" id="applianceInput" class="listDisplay hidden inputWidth" placeholder="Rechercher un appareil" />
+									<i class="fas fa-chevron-up" id="applianceChevronUp"></i>
+								</div>
+								<div class="listDisplay" id="applianceList" data-filter="appliance"></div>
+							</label>
+						</div>
+
+						<div class="search-group">
+							<label class="btn" id="ustensilsLabel" for="ustensil">
+								<div class="space-between"><span id="ustensilsSpan">Ustensiles</span><i class="fas fa-chevron-down" id="ustensilChevronDown"></i></div>
+								<div class="ustensilPlaceholder">
+									<input type="text" id="ustensilInput" class="listDisplay hidden inputWidth" placeholder="Rechercher un ustensil" />
+									<i class="fas fa-chevron-up" id="ustensilChevronUp"></i>
+								</div>
+								<div class="listDisplay" id="ustensilList" data-filter="ustensil"></div>
+							</label>
+						</div>
+					</div>
+				</div>
+			</section>
+		</header>
+		<main>
+			<div id="card-container" class="card-container"></div>
+		</main>
+		<script type="module" src="/JS/script.js"></script>
+	</body>
+</html>

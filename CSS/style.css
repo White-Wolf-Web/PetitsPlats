@@ -1,0 +1,356 @@
+body {
+	width: 1240px;
+	margin: 0 auto;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.space-between {
+	display: flex;
+	justify-content: space-between !important;
+}
+
+.logo {
+	display: flex;
+	margin: 42px auto 17px auto;
+}
+
+.search-container {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 17px;
+}
+
+/* BARRE DE RECHERCHE PRINCIPALE */
+input[type="search"] {
+	background-color: #e7e7e7;
+	border-radius: 5px;
+	border: none;
+	padding: 8px 12px;
+	width: 100%;
+	height: 70px;
+	box-sizing: border-box;
+	outline: none;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.search-icon {
+	transform: translateY(-50%) rotate(-45deg);
+	font-size: 16px;
+	color: black !important;
+	pointer-events: none;
+}
+
+/* Retirer la loupe de l'input search */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+	display: none;
+}
+
+input[type="search"] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+/* AUCUNE RECETTE NE CORRESPOND */
+
+.noRecipyAvailable {
+	margin: 3px 0 20px 0;
+	padding: 10px;
+	background-color: lightcoral;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+/* INGREDIENTS USTENSILES APPAREILS */
+.dropdown-container {
+	display: flex;
+	justify-content: center;
+	justify-content: flex-start;
+	margin-bottom: 25px;
+}
+
+.btn-group {
+	display: flex;
+}
+
+.btn {
+	border: none;
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+	padding: 0 20px;
+	line-height: 69px;
+}
+
+.fas {
+	line-height: 69px !important;
+}
+
+.fa-chevron-up {
+	display: none;
+}
+.search-group {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	border: none;
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 0 10px;
+	cursor: pointer;
+	min-width: 170px;
+	height: 69px;
+	border-radius: 5px;
+	justify-content: space-between;
+}
+
+.search-group:first-child {
+	background-color: #3282f7;
+	margin-left: 0px;
+}
+
+.search-group:nth-child(2) {
+	background-color: #68d9a4;
+}
+
+.search-group:last-child {
+	background-color: #ed6454;
+}
+
+/* Input */
+input {
+	height: 36px;
+}
+
+input.btn {
+	min-height: 69px;
+	margin: 0 10px;
+	border: none;
+	outline: none;
+}
+
+input.listDisplay::placeholder {
+	color: white;
+	opacity: 0.5;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+input.listDisplay::-webkit-input-placeholder {
+	color: white;
+	opacity: 0.5;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+input.listDisplay::-moz-placeholder {
+	color: white;
+	opacity: 0.5;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.inputWidth {
+	min-width: 230px;
+}
+
+.ingredientPlaceholder {
+	display: flex;
+}
+.appliancePlaceholder {
+	display: flex;
+}
+.ustensilPlaceholder {
+	display: flex;
+}
+
+.listDisplay {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	width: 100%;
+	max-width: 667px;
+	height: 69px;
+	color: white;
+	font-family: Lato;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 0em;
+	list-style-type: none;
+	position: relative;
+	z-index: 2000;
+	color: white;
+	flex-direction: column;
+	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
+	height: auto;
+	margin: -5px -20px;
+	padding: 0 20px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#ingredientsList {
+	background-color: #3282f7;
+}
+#ustensilList {
+	background-color: #ed6454;
+}
+#applianceList {
+	background-color: #68d9a4;
+}
+
+/* TAGS */
+.tag {
+	color:#ed6454;
+}
+.allTags {
+	display: inline-flex;
+	padding: 5px 0 5px 10px;
+	margin: 5px;
+	border-radius: 5px;
+	font-size: 14px;
+	color: white;
+}
+.tag-ingredient {
+	background-color: #3282f7;
+
+}
+   
+  .tag-ustensil {
+	background-color: #ed6454;
+
+}
+  
+  .tag-appliance {
+	background-color: #68d9a4;
+
+}
+  
+.close-button {
+	width: 20px;
+	height: 20px;
+	margin: auto 10px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	line-height: 20px;
+}
+.fa-circle-xmark {
+	width: 20px;
+	height: 20px;
+}
+/******** CARDS **********/
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 50px;
+}
+
+.card {
+	background-color: #f8f8f8;
+	border-radius: 5px;
+	width: 380px;
+	height: 364px;
+	box-sizing: border-box;
+	overflow: hidden;
+	padding-bottom: 5px;
+}
+
+.headCard {
+	height: 178px;
+	width: 380px;
+	background: #c7bebe;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.headLine {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 20px;
+	margin: 0;
+}
+
+.card h3 {
+	color: black;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	margin-block-end: 0;
+	margin-block-start: 5px;
+	max-width: 220px;
+}
+
+.time {
+	color: black;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	margin-block-end: 0;
+	margin-block-start: 5px;
+}
+
+.servings {
+	display: none;
+}
+
+.recipeExplanation {
+	display: flex;
+	padding: 0 20px;
+	margin: 0;
+}
+
+.description {
+	width: 171px;
+	height: 109px;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	display: -webkit-box;
+	-webkit-webkit-box-orient: vertical;
+	-webkit-line-clamp: 9;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.ingredientsList {
+	width: 171px;
+	list-style: none;
+	font-family: "Lato";
+	font-style: normal;
+	font-size: 12px;
+	line-height: 14px;
+	color: #000000;
+	padding: 0 5px 0 0;
+}
+
+.listItem {
+	list-style: none;
+	display: none;
+}
