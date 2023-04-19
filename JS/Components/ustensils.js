@@ -1,5 +1,5 @@
 import { recipes } from "../Data/recipes.js";
-import { getFilteredRecipes } from "../Components/searchAndFilter.js";
+import { getFilteredRecipes } from "./filteredRecipes.js";
 
 // Fonction pour normaliser le nom des ustensiles
 function normalizeUstensil({ ustensil }) {

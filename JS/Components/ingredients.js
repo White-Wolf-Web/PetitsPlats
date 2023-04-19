@@ -2,7 +2,7 @@
  
 
 import { recipes } from "../Data/recipes.js";
-import { getFilteredRecipes} from "../Components/searchAndFilter.js";
+import { getFilteredRecipes } from "./filteredRecipes.js";
 
 // Fonction pour normaliser les ingrédients (supprimer le "s" à la fin si nécessaire)
 function normalizeIngredient(ingredient) {

@@ -1,9 +1,10 @@
 import { recipes } from "./Data/recipes.js";
-import { searchAndFilter, getIngredientsFromRecipes, getUstensilsFromRecipes, getAppliancesFromRecipes, displayRecipes } from "./Components/searchAndFilter.js";
+import { searchAndFilter } from "./Components/searchAndFilter.js";
 import { displayIngredients } from "./Components/ingredients.js";
 import { getAllUstensils, displayUstensils } from "./Components/ustensils.js";
 import { displayAppliances } from "./Components/appliances.js";
-
+import { getIngredientsFromRecipes, getUstensilsFromRecipes, getAppliancesFromRecipes } from "./Components/getFromRecipes.js";
+import { displayRecipes } from "./Components/displayRecipes.js";
 
 // Variables pour stocker les ingrédients, ustensiles et appareils filtrés
 let filteredIngredients = [];

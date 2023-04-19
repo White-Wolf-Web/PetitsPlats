@@ -1,3 +1,8 @@
+import { recipes } from "../Data/recipes.js";
+import { displayRecipes } from "./displayRecipes.js";
+import { setFilteredRecipes} from "./filteredRecipes.js";
+
+
 export function filterRecipes() {
 	const searchInput = document.getElementById("search-input");
 	const searchTerm = searchInput.value.toLowerCase().trim();
