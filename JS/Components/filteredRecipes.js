@@ -1,12 +1,15 @@
 import { recipes } from "../Data/recipes.js";
 
+// c'est une variable qui stocke une copie de la liste de recettes initiales.
+export let filteredRecipes = recipes.slice();                   
 
-export let filteredRecipes = recipes.slice();                   // c'est une variable qui stocke une copie de la liste de recettes initiales.
-
+// Fonction qui récupére la liste des recettes filtrées et la renvoi à nouveau
 export function getFilteredRecipes() {
 	return filteredRecipes;
 }
-export function setFilteredRecipes(recipes) {                   // Fonction renvoie la liste des recettes filtrées stockées dans la variable filteredRecipes.
+
+// Fonction qui renvoie la liste des recettes filtrées stockées dans la variable filteredRecipes.
+export function setFilteredRecipes(recipes) {                   
 	filteredRecipes = recipes;
 }
 
