@@ -1,8 +1,8 @@
 import { recipes } from "../Data/recipes.js";
 import { updateAndDisplayFilteredRecipes } from "./updateAndDisplayFilteredRecipes.js";
 import { handleListClick } from "./handleListClick.js";
-//import { filterRecipes } from "./filterRecipesByFilterAndMap.js";
-import { filterRecipes } from "./filterRecipesByLoopFor.js";
+import { filterRecipes } from "./filterRecipesByFilterAndMap.js";
+//import { filterRecipes } from "./filterRecipesByLoopFor.js";
 
 
 export function searchAndFilter(recipes) {
