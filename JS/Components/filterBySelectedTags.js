@@ -4,8 +4,8 @@ export function filterBySelectedTags(selectedTags, filteredRecipes) {
 	let updatedFilteredRecipes = filteredRecipes.slice();
 	if (selectedTags.length > 0) {
 		updatedFilteredRecipes = filteredRecipes.filter((recipe) => {
-			return selectedTags.every((selectedTag) => {
-				const isIngredient = recipe.ingredients.some((ingredient) => {
+			return selectedTags.every((selectedTag) => {                        //Si tous les tags sélectionnés sont présents, la fonction every() retourne true,
+				const isIngredient = recipe.ingredients.some((ingredient) => {  //Si au moins un ingrédient correspond au tag, la fonction retourne true.
 					return ingredient.ingredient.toLowerCase() === selectedTag.toLowerCase();
 				});
 				const isUstensil = recipe.ustensils.some((ustensil) => {
