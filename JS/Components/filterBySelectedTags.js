@@ -1,7 +1,5 @@
-//  filtre les recettes en fonction des étiquettes sélectionnées (ingrédients, ustensiles ou appareils)
-// et retourne un nouveau tableau de recettes filtrées.
-
-
+/*  filtre les recettes en fonction des étiquettes sélectionnées (ingrédients, ustensiles ou appareils)
+et retourne un nouveau tableau de recettes filtrées.*/
 export function filterBySelectedTags(selectedTags, filteredRecipes) {
 	let updatedFilteredRecipes = filteredRecipes.slice();
 	if (selectedTags.length > 0) {

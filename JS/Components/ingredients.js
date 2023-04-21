@@ -1,6 +1,3 @@
-
- 
-
 import { recipes } from "../Data/recipes.js";
 import { getFilteredRecipes } from "./filteredRecipes.js";
 
@@ -48,7 +45,7 @@ export function displayIngredients(ingredients, selectedIngredients = [], ingred
 	const uniqueIngredients = Array.from(new Set(normalizedIngredients));
 	const sortedIngredients = sortIngredientsAlphabetically(uniqueIngredients);
 
-	ulElement.innerHTML = "";                                                       // Vider la liste d'ingrédients
+	ulElement.innerHTML = ""; // Vider la liste d'ingrédients
 
 	// Parcourir les ingrédients triés et créer un élément li pour chaque ingrédient non sélectionné
 	sortedIngredients.forEach((ingredient) => {
@@ -58,7 +55,7 @@ export function displayIngredients(ingredients, selectedIngredients = [], ingred
 
 			liElement.addEventListener("click", () => {
 				const filteredRecipes = getFilteredRecipes();
-				ingredientInput.value = "";                                         // Effacer l'input après avoir sélectionné un ingrédient
+				ingredientInput.value = ""; // Effacer l'input après avoir sélectionné un ingrédient
 			});
 
 			ulElement.appendChild(liElement);
