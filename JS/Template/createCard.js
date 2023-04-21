@@ -25,7 +25,6 @@ export default function createCard(recipe) {
 	headLine.appendChild(time);
 
 	const servings = document.createElement("p");
-	//servings.textContent = `Pour : ${recipe.servings} personnes`;
 	servings.className = "servings";
 	card.appendChild(servings);
 
@@ -56,14 +55,12 @@ export default function createCard(recipe) {
 	recipeExplanation.appendChild(description);
 
 	const appliance = document.createElement("p");
-	//appliance.textContent = `Appareil : ${recipe.appliance}`;
 	card.appendChild(appliance);
 
 	const utensilsList = document.createElement("ul");
 	recipe.ustensils.forEach((utensil) => {
 		const listItem = document.createElement("li");
 		listItem.className = "listItem";
-		//listItem.textContent = utensil;
 		utensilsList.appendChild(listItem);
 	});
 	card.appendChild(utensilsList);
