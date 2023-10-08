@@ -1,6 +1,5 @@
-
-import { filterRecipes } from "./filterRecipesByLoopFor.js";
-//import { filterRecipes } from "./filterRecipesByFilterAndMap.js";
+//import { filterRecipes } from "./filterRecipesByLoopFor.js";
+import { filterRecipes } from "./filterRecipesByFilterAndMap.js";
 
 // Fonction pour créer une étiquette (tag) pour un ingrédient, un ustensile ou un appareil sélectionné
 export function createTag(selectedIngredient, tagType) {

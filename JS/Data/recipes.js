@@ -2,6 +2,7 @@ export const recipes = [
 	{
 		id: 1,
 		name: "Limonade de Coco",
+		img:"/IMAGES/limonade-coco.webp",
 		servings: 1,
 		ingredients: [
 			{
@@ -36,6 +37,7 @@ export const recipes = [
 	{
 		id: 2,
 		name: "Poisson Cru à la tahitienne",
+		img:"/IMAGES/poisson-tahitien.webp",
 		servings: 2,
 		ingredients: [
 			{
@@ -74,6 +76,7 @@ export const recipes = [
 	{
 		id: 3,
 		name: "Poulet coco réunionnais",
+		img:"/IMAGES/poulet-coco.webp",
 		servings: 4,
 		ingredients: [
 			{
@@ -113,6 +116,7 @@ export const recipes = [
 	{
 		id: 4,
 		name: "Salade de riz",
+		img:"/IMAGES/salade-de-riz.webp",
 		servings: 4,
 		ingredients: [
 			{
@@ -153,6 +157,7 @@ export const recipes = [
 	{
 		id: 5,
 		name: "Tarte au thon",
+		img:"/IMAGES/quiche-thon.webp",
 		servings: 4,
 		ingredients: [
 			{
@@ -193,6 +198,7 @@ export const recipes = [
 	{
 		id: 6,
 		name: "Tarte aux pommes",
+		img:"/IMAGES/tarte-pommes.webp",
 		servings: 6,
 		ingredients: [
 			{
@@ -232,6 +238,7 @@ export const recipes = [
 	{
 		id: 7,
 		name: "Tartelettes au chocolat et aux fraises",
+		img:"/IMAGES/tarte-au-chocolat-aux-fraises.webp",
 		servings: 6,
 		ingredients: [
 			{
@@ -267,6 +274,7 @@ export const recipes = [
 	{
 		id: 8,
 		name: "Brownie",
+		img:"/IMAGES/brownies-au-chocolat.webp",
 		servings: 10,
 		ingredients: [
 			{
@@ -308,6 +316,7 @@ export const recipes = [
 	{
 		id: 9,
 		name: "Salade Méditerannéene fraîche au chèvre",
+		img:"/IMAGES/salade-chevre.webp",
 		servings: 4,
 		ingredients: [
 			{
@@ -341,6 +350,7 @@ export const recipes = [
 	{
 		id: 10,
 		name: "Tartiflette",
+		img:"/IMAGES/tartiflette.webp",
 		servings: 4,
 		ingredients: [
 			{
@@ -377,6 +387,7 @@ export const recipes = [
 	{
 		id: 11,
 		name: "Salade tomate, mozzarella et pommes",
+		img:"/IMAGES/salade-mozzarella.webp",
 		servings: 4,
 		ingredients: [
 			{
@@ -417,6 +428,7 @@ export const recipes = [
 	{
 		id: 12,
 		name: "Compote pomme rhubarbe",
+		img:"/IMAGES/compote-pomme-rhubarbe.webp",
 		servings: 4,
 		ingredients: [
 			{
@@ -448,6 +460,7 @@ export const recipes = [
 	{
 		id: 13,
 		name: "Salade mâchée de patates",
+		img:"/IMAGES/salade-pommes-terre.webp",
 		servings: 2,
 		ingredients: [
 			{
@@ -484,6 +497,7 @@ export const recipes = [
 	{
 		id: 14,
 		name: "Galette Bretonne Saucisse et Fromage à raclette",
+		img:"/IMAGES/breton-saucisse.webp",
 		servings: 2,
 		ingredients: [
 			{
@@ -523,6 +537,7 @@ export const recipes = [
 	{
 		id: 15,
 		name: "Crêpes Chocolat Banane",
+		img:"/IMAGES/crepes-banane.webp",
 		servings: 10,
 		ingredients: [
 			{
@@ -563,6 +578,7 @@ export const recipes = [
 	{
 		id: 16,
 		name: "Gratin de pâtes à la tomate",
+		img:"/IMAGES/gratin-pate-tomate.webp",
 		servings: 2,
 		ingredients: [
 			{
@@ -600,6 +616,7 @@ export const recipes = [
 	{
 		id: 17,
 		name: "Smoothie à la fraise",
+		img:"/IMAGES/smoothies-fraise.webp",
 		servings: 6,
 		ingredients: [
 			{
@@ -633,6 +650,7 @@ export const recipes = [
 	{
 		id: 18,
 		name: "Smoothie ananas et vanille",
+		img:"/IMAGES/smoothies-banane-kiwi.webp",
 		servings: 5,
 		ingredients: [
 			{
@@ -659,6 +677,7 @@ export const recipes = [
 	{
 		id: 19,
 		name: "Shake Banane Kiwi",
+		img:"/IMAGES/smoothies-banane-kiwi.webp",
 		servings: 4,
 		ingredients: [
 			{
@@ -693,6 +712,7 @@ export const recipes = [
 	{
 		id: 20,
 		name: "Pates Carbonara",
+		img:"/IMAGES/carbonara.webp",
 		servings: 5,
 		ingredients: [
 			{
@@ -730,6 +750,7 @@ export const recipes = [
 	{
 		id: 21,
 		name: "Spaghettis à la bolognaise",
+		img:"/IMAGES/spaghetti-sauce-bolognaise.webp",
 		servings: 4,
 		ingredients: [
 			{
@@ -771,6 +792,7 @@ export const recipes = [
 	{
 		id: 22,
 		name: "Fondant au chocolat",
+		img:"/IMAGES/fondant-chocolat.webp",
 		servings: 4,
 		ingredients: [
 			{
@@ -807,6 +829,7 @@ export const recipes = [
 	{
 		id: 23,
 		name: "Quiche lorraine",
+		img:"/IMAGES/quiche-lorraine.webp",
 		servings: 4,
 		ingredients: [
 			{
@@ -848,6 +871,7 @@ export const recipes = [
 	{
 		id: 24,
 		name: "Salade de pâtes",
+		img:"/IMAGES/salade-de-pates.webp",
 		servings: 4,
 		ingredients: [
 			{
@@ -888,6 +912,7 @@ export const recipes = [
 	{
 		id: 25,
 		name: "Cookies",
+		img:"/IMAGES/cookies.webp",
 		servings: 4,
 		ingredients: [
 			{
@@ -924,6 +949,7 @@ export const recipes = [
 	{
 		id: 26,
 		name: "Soupe de tomates",
+		img:"/IMAGES/soupe-gaspacho.webp",
 		servings: 2,
 		ingredients: [
 			{
@@ -956,6 +982,7 @@ export const recipes = [
 	{
 		id: 27,
 		name: "Soupe à l'oseille",
+		img:"/IMAGES/soupe-oseille.webp",
 		servings: 4,
 		ingredients: [
 			{
@@ -991,6 +1018,7 @@ export const recipes = [
 	{
 		id: 28,
 		name: "Soupe de poireaux",
+		img:"/IMAGES/soupe-poireaux.webp",
 		servings: 4,
 		ingredients: [
 			{
@@ -1027,6 +1055,7 @@ export const recipes = [
 	{
 		id: 29,
 		name: "Houmous Express",
+		img:"/IMAGES/houmous.webp",
 		servings: 2,
 		ingredients: [
 			{
@@ -1058,6 +1087,7 @@ export const recipes = [
 	{
 		id: 30,
 		name: "Purée de pois cassés",
+		img:"/IMAGES/puree-aux-pois.webp",
 		servings: 4,
 		ingredients: [
 			{
@@ -1084,6 +1114,7 @@ export const recipes = [
 	{
 		id: 31,
 		name: "Jardinière de légumes",
+		img:"/IMAGES/jardiniere-legumes.webp",
 		servings: 4,
 		ingredients: [
 			{
@@ -1119,6 +1150,7 @@ export const recipes = [
 	{
 		id: 32,
 		name: "Croque Monsieur à la dinde",
+		img:"/IMAGES/croque-monsieur.webp",
 		servings: 4,
 		ingredients: [
 			{
@@ -1161,6 +1193,7 @@ export const recipes = [
 	{
 		id: 33,
 		name: "Sandwich au saumon fumé",
+		img:"/IMAGES/sandwich-saumon-fume.webp",
 		servings: 4,
 		ingredients: [
 			{
@@ -1197,6 +1230,7 @@ export const recipes = [
 	{
 		id: 34,
 		name: "Purée de patate douce",
+		img:"/IMAGES/puree-patate-douce.webp",
 		servings: 4,
 		ingredients: [
 			{
@@ -1226,6 +1260,7 @@ export const recipes = [
 	{
 		id: 35,
 		name: "Purée de carottes",
+		img:"/IMAGES/puree-carottes.webp",
 		servings: 2,
 		ingredients: [
 			{
@@ -1266,6 +1301,7 @@ export const recipes = [
 	{
 		id: 36,
 		name: "Lasagne Courgettes et Chèvre",
+		img:"/IMAGES/lasagne-courgette-chevre.webp",
 		servings: 2,
 		ingredients: [
 			{
@@ -1306,6 +1342,7 @@ export const recipes = [
 	{
 		id: 37,
 		name: "Courgettes farcies au boeuf",
+		img:"/IMAGES/courgettes-farcies.webp",
 		servings: 2,
 		ingredients: [
 			{
@@ -1346,6 +1383,7 @@ export const recipes = [
 	{
 		id: 38,
 		name: "Pain Perdu",
+		img:"/IMAGES/pain-perdu.webp",
 		servings: 4,
 		ingredients: [
 			{
@@ -1376,6 +1414,7 @@ export const recipes = [
 	{
 		id: 39,
 		name: "Crumble aux pommes",
+		img:"/IMAGES/crumble-pomme.webp",
 		servings: 40,
 		ingredients: [
 			{
@@ -1407,6 +1446,7 @@ export const recipes = [
 	{
 		id: 40,
 		name: "Limonade",
+		img:"/IMAGES/lemonade.webp",
 		servings: 4,
 		ingredients: [
 			{
@@ -1438,6 +1478,7 @@ export const recipes = [
 	{
 		id: 41,
 		name: "Mousse au chocolat",
+		img:"/IMAGES/mousse-chocolat.webp",
 		servings: 4,
 		ingredients: [
 			{
@@ -1464,6 +1505,7 @@ export const recipes = [
 	{
 		id: 42,
 		name: "Charlotte au poires",
+		img:"/IMAGES/charlotte-aux-poires.webp",
 		servings: 3,
 		ingredients: [
 			{
@@ -1494,6 +1536,7 @@ export const recipes = [
 	{
 		id: 43,
 		name: "Tarte au citron",
+		img:"/IMAGES/tarte-au-citron.webp",
 		servings: 6,
 		ingredients: [
 			{
@@ -1528,6 +1571,7 @@ export const recipes = [
 	{
 		id: 44,
 		name: "Crème dessert au chocolat",
+		img:"/IMAGES/creme-chocolat.webp",
 		servings: 6,
 		ingredients: [
 			{
@@ -1565,6 +1609,7 @@ export const recipes = [
 	{
 		id: 45,
 		name: "Crème pâtissière",
+		img:"/IMAGES/creme-patissiere.webp",
 		servings: 8,
 		ingredients: [
 			{
@@ -1596,6 +1641,7 @@ export const recipes = [
 	{
 		id: 46,
 		name: "Far breton",
+		img:"/IMAGES/far-breton.webp",
 		servings: 6,
 		ingredients: [
 			{
@@ -1637,6 +1683,7 @@ export const recipes = [
 	{
 		id: 47,
 		name: "Mousse au citron",
+		img:"IMAGES/mouse-citron.webp",
 		servings: 6,
 		ingredients: [
 			{
@@ -1669,6 +1716,7 @@ export const recipes = [
 	{
 		id: 48,
 		name: "Pizza",
+		img:"/IMAGES/pizza.webp",
 		servings: 4,
 		ingredients: [
 			{
@@ -1705,6 +1753,7 @@ export const recipes = [
 	{
 		id: 49,
 		name: "Smoothie tropical",
+		img:"/IMAGES/smoothie-tropical.webp",
 		servings: 4,
 		ingredients: [
 			{
@@ -1738,6 +1787,7 @@ export const recipes = [
 	{
 		id: 50,
 		name: "Frangipane",
+		img:"/IMAGES/frangipane.webp",
 		servings: 2,
 		ingredients: [
 			{

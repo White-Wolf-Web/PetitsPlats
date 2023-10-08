@@ -9,6 +9,7 @@ export default function createCard(recipe) {
 
 	const headCard = document.createElement("img");
 	headCard.className = "headCard";
+	headCard.src = recipe.img; 
 	card.appendChild(headCard);
 
 	const headLine = document.createElement("div");
