@@ -358,4 +358,11 @@ input.listDisplay::-moz-placeholder {
 /* FOOTER */
 .footer {
 	text-align: center;
+	
+	margin:10px 0;
+	
+}
+.footer a {
+	text-decoration: none;
+	color: #000000;
 }
