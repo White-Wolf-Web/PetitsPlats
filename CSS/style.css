@@ -354,3 +354,8 @@ input.listDisplay::-moz-placeholder {
 	list-style: none;
 	display: none;
 }
+
+/* FOOTER */
+.footer {
+	text-align: center;
+}
